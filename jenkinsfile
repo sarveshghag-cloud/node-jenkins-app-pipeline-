@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: "${BRANCH}", url: "${https://github.com/sarveshghag-cloud/node-jenkins-app-pipeline-.git}"
+                git branch: "${BRANCH}", url: "${REPO_URL}"
             }
         }
 
